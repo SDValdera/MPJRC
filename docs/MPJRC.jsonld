@@ -1,0 +1,493 @@
+[
+  {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "dct": "http://purl.org/dc/terms/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "dcatap": "http://data.europa.eu/r5r/",
+      "vcard": "http://www.w3.org/2006/vcard/ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "locn": "http://www.w3.org/ns/locn#",
+      "time": "http://www.w3.org/2006/time#",
+      "adms": "http://www.w3.org/ns/adms#",
+      "odrl": "http://www.w3.org/ns/odrl/2/"
+    },
+    "@id": "http://datos.organismo.es/catalogo",
+    "@type": "dcat:Catalog",
+    "dct:publisher": [
+      {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+        "@type": "foaf:Agent",
+        "dct:identifier": "E00003901",
+        "dct:type": {
+          "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+        },
+        "foaf:name": [
+          {
+            "@value": "Ministerio de Presidencia Justicia y Relaciones con las Cortes",
+            "@language": "es"
+          }
+        ]
+      }
+    ],
+    "dct:title": {
+      "@value": "Catalogo Datos Justicia",
+      "@language": "es"
+    },
+    "dct:issued": [
+      {
+        "@value": "2025-10-23T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dct:modified": [
+      {
+        "@value": "2026-02-03T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dct:creator": [
+      {
+        "@type": "foaf:Agent",
+        "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+        "dct:type": {
+          "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+        },
+        "foaf:name": [
+          {
+            "@value": "Ministerio de Presidencia Justicia y Relaciones con las Cortes",
+            "@language": "es"
+          }
+        ]
+      }
+    ],
+    "dct:description": {
+      "@value": "Catalogo Ministerio de la Presidencia, Justicia y Relaciones con las Cortes - Secretaria de Estado de Justicia",
+      "@language": "es"
+    },
+    "dct:language": "es",
+    "foaf:homepage": [
+      {
+        "@id": "https://www.mjusticia.gob.es/es"
+      }
+    ],
+    "dct:license": {
+      "@id": "http://purl.org/dc/terms/license"
+    },
+    "dcat:themeTaxonomy": {
+      "@id": "http://datos.gob.es/kos/sector-publico/sector"
+    },
+    "dct:spatial": [
+      {
+        "@type": "dct:Location",
+        "@id": "http://publications.europa.eu/resource/authority/country/ESP",
+        "dcat:bbox": {
+          "@value": "POLYGON EMPTY",
+          "@type": "geo:wktLiteral"
+        },
+        "dcat:centroid": {
+          "@value": "POINT EMPTY",
+          "@type": "geo:wktLiteral"
+        },
+        "locn:geometry": {
+          "@value": "POLYGON EMPTY",
+          "@type": "geo:wktLiteral"
+        }
+      }
+    ],
+    "dcat:dataset": [
+      {
+        "@id": "http://datos.organismo.es/dataset/76aa23d1-b15a-4b2e-ba2d-dcf9f8f9d39e"
+      },
+      {
+        "@id": "http://datos.organismo.es/dataset/da79786e-6067-4a49-9a2d-a5da7f16f310"
+      }
+    ]
+  },
+  {
+    "@type": "dcat:Dataset",
+    "@id": "http://datos.organismo.es/dataset/76aa23d1-b15a-4b2e-ba2d-dcf9f8f9d39e",
+    "dct:publisher": {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901"
+    },
+    "dct:title": {
+      "@value": "Subdominio Sentencias Judiciales",
+      "@language": "es"
+    },
+    "dct:creator": [
+      {
+        "@type": "foaf:Agent",
+        "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+        "dct:type": {
+          "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+        },
+        "foaf:name": [
+          {
+            "@value": "Ministerio de Presidencia Justicia y Relaciones con las Cortes",
+            "@language": "es"
+          }
+        ]
+      }
+    ],
+    "dct:description": {
+      "@value": "Datos en ambito competencial del Ministerio (CCAA no transferidas). Datos agregados por orden jurisidiccional, tipo asunto (principal, recurso, ejecutoria), tipos recurso, con distribución geográfica, temporal. Nota: el Ministerio no tiene competencia para publicar las sentencias propiamente dichas, se trata de datos sobre el proceso.",
+      "@language": "es"
+    },
+    "dct:accessRights": {
+      "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+    },
+    "dct:issued": [
+      {
+        "@value": "2025-10-24T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dct:modified": [
+      {
+        "@value": "2026-02-03T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dcat:theme": {
+      "@id": "http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia"
+    },
+    "dct:language": "es",
+    "dct:accrualPeriodicity": {
+      "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+    },
+    "dcatap:applicableLegislation": {
+      "@id": "None"
+    },
+    "dct:spatial": [
+      {
+        "@type": "dct:Location",
+        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+      }
+    ],
+    "dct:temporal": [
+      {
+        "@type": "dct:PeriodOfTime",
+        "dcat:startDate": {
+          "@value": "2025-10-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      }
+    ],
+    "dcat:contactPoint": [
+      {
+        "@id": "To be defined",
+        "vcard:organization-name": [
+          {
+            "@value": "To be defined",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasUid": [
+          {
+            "@value": "Centro de Datos y Analítica",
+            "@language": "es"
+          }
+        ],
+        "vcard:fn": [
+          {
+            "@value": "Dirección General de Transformación Digital de la Administración de Justicia. Subdirección General de Impulso e Innovación de Servicios Digitales.",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasEmail": [
+          {
+            "@value": "To be defined",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasTelephone": [
+          {
+            "@value": "913 90 26 00",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasURL": [
+          {
+            "@value": "https://www.mjusticia.gob.es/es/atencion-ciudadano",
+            "@language": "es"
+          }
+        ]
+      }
+    ],
+    "dcat:distribution": [
+      {
+        "@id": "To be defined"
+      }
+    ]
+  },
+  {
+    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+    "@type": "foaf:Agent",
+    "dct:identifier": "E00003901",
+    "dct:type": {
+      "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+    },
+    "foaf:name": [
+      {
+        "@value": "Ministerio de Presidencia Justicia y Relaciones con las Cortes",
+        "@language": "es"
+      }
+    ]
+  },
+  {
+    "@id": "To be defined",
+    "@type": "dcat:Distribution",
+    "dct:title": {
+      "@value": "To be defined",
+      "@language": "es"
+    },
+    "dcat:accessURL": {
+      "@id": "To be defined"
+    },
+    "dct:format": {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "dct:license": {
+      "@id": "None"
+    },
+    "dct:description": {
+      "@value": "Distribución principal en formato CSV del conjunto 1",
+      "@language": "es"
+    },
+    "foaf:page": {
+      "@id": "To be defined"
+    },
+    "dct:language": "es",
+    "dct:issued": [
+      {
+        "@value": "2025-10-24T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dct:modified": [
+      {
+        "@value": "2026-02-03T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dcat:byteSize": [
+      {
+        "@value": "To be defined",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ],
+    "dcatap:availability": {
+      "@id": "http://publications.europa.eu/resource/authority/planned-availability/EXPERIMENTAL"
+    },
+    "dcatap:applicableLegislation": {
+      "@id": "To be defined"
+    },
+    "dcat:downloadURL": {
+      "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Sentencias_Judiciales.csv"
+    },
+    "dcat:packageFormat": {
+      "@id": "To be defined"
+    },
+    "dcat:mediaType": {
+      "@id": "To be defined"
+    },
+    "odrl:hasPolicy": {
+      "@id": "None"
+    }
+  },
+  {
+    "@type": "dcat:Dataset",
+    "@id": "http://datos.organismo.es/dataset/da79786e-6067-4a49-9a2d-a5da7f16f310",
+    "dct:publisher": {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901"
+    },
+    "dct:title": {
+      "@value": "Subdominio Cancelaciones Antecedentes Penales",
+      "@language": "es"
+    },
+    "dct:creator": [
+      {
+        "@type": "foaf:Agent",
+        "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+        "dct:type": {
+          "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+        },
+        "foaf:name": [
+          {
+            "@value": "Ministerio de Presidencia Justicia y Relaciones con las Cortes",
+            "@language": "es"
+          }
+        ]
+      }
+    ],
+    "dct:description": {
+      "@value": "Datos de cancelaciones de Antecedentes Penales provenientes de Siraj",
+      "@language": "es"
+    },
+    "dct:accessRights": {
+      "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+    },
+    "dct:issued": [
+      {
+        "@value": "2026-01-15T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dct:modified": [
+      {
+        "@value": "2026-02-03T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dcat:theme": {
+      "@id": "http://datos.gob.es/kos/sector-publico/sector/legislacion-justicia"
+    },
+    "dct:language": "es",
+    "dct:accrualPeriodicity": {
+      "@id": "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+    },
+    "dcatap:applicableLegislation": {
+      "@id": "None"
+    },
+    "dct:spatial": [
+      {
+        "@type": "dct:Location",
+        "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+      }
+    ],
+    "dct:temporal": [
+      {
+        "@type": "dct:PeriodOfTime",
+        "dcat:startDate": {
+          "@value": "2026-01-15T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      }
+    ],
+    "dcat:contactPoint": [
+      {
+        "@id": "To be defined",
+        "vcard:organization-name": [
+          {
+            "@value": "To be defined",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasUid": [
+          {
+            "@value": "Centro de Datos y Analítica",
+            "@language": "es"
+          }
+        ],
+        "vcard:fn": [
+          {
+            "@value": "Dirección General de Transformación Digital de la Administración de Justicia. Subdirección General de Impulso e Innovación de Servicios Digitales",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasEmail": [
+          {
+            "@value": "To be defined",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasTelephone": [
+          {
+            "@value": "913 90 26 00",
+            "@language": "es"
+          }
+        ],
+        "vcard:hasURL": [
+          {
+            "@value": "https://www.mjusticia.gob.es/es/atencion-ciudadano",
+            "@language": "es"
+          }
+        ]
+      }
+    ],
+    "dcat:distribution": [
+      {
+        "@id": "To be defined"
+      }
+    ]
+  },
+  {
+    "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+    "@type": "foaf:Agent",
+    "dct:identifier": "E00003901",
+    "dct:type": {
+      "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+    },
+    "foaf:name": [
+      {
+        "@value": "Ministerio de Presidencia Justicia y Relaciones con las Cortes",
+        "@language": "es"
+      }
+    ]
+  },
+  {
+    "@id": "To be defined",
+    "@type": "dcat:Distribution",
+    "dct:title": {
+      "@value": "To be defined",
+      "@language": "es"
+    },
+    "dcat:accessURL": {
+      "@id": "To be defined"
+    },
+    "dct:format": {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "dct:license": {
+      "@id": "None"
+    },
+    "dct:description": {
+      "@value": "Distribución principal en formato CSV del conjunto 1",
+      "@language": "es"
+    },
+    "foaf:page": {
+      "@id": "To be defined"
+    },
+    "dct:language": "es",
+    "dct:issued": [
+      {
+        "@value": "2026-01-15T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dct:modified": [
+      {
+        "@value": "2026-02-03T00:00:00+01:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "dcat:byteSize": [
+      {
+        "@value": "To be defined",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ],
+    "dcatap:availability": {
+      "@id": "http://publications.europa.eu/resource/authority/planned-availability/EXPERIMENTAL"
+    },
+    "dcatap:applicableLegislation": {
+      "@id": "To be defined"
+    },
+    "dcat:downloadURL": {
+      "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Cancelacion_Antecedentes_Penales.csv"
+    },
+    "dcat:packageFormat": {
+      "@id": "To be defined"
+    },
+    "dcat:mediaType": {
+      "@id": "To be defined"
+    },
+    "odrl:hasPolicy": {
+      "@id": "None"
+    }
+  }
+]
