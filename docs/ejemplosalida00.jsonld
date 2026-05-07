@@ -217,15 +217,15 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://descatalogodatos.justicia.es/csv/Subastas_Judiciales.csv"
+          "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv"
         }
       ]
     },
     {
-      "@id": "https://descatalogodatos.justicia.es/csv/Subastas_Judiciales.csv",
+      "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv",
       "@type": "dcat:Distribution",
       "dcat:accessURL": {
-        "@id": "https://descatalogodatos.justicia.es/csv/Subastas_Judiciales.csv"
+        "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -255,7 +255,7 @@
         "@id": "https://www.boe.es/eli/es/l/2013/12/09/19"
       },
       "dcat:downloadURL": {
-        "@id": "https://descatalogodatos.justicia.es/csv/Subastas_Judiciales.csv"
+        "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv"
       }
     }
   ]
