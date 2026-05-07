@@ -21,9 +21,9 @@
       "@type": "dcat:Catalog",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -54,7 +54,7 @@
       "dct:creator": [
         {
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -95,9 +95,9 @@
       "@id": "http://datos.organismo.es/dataset/739e808b-5a22-4179-b85c-eec2cf467864",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -116,7 +116,7 @@
       "dct:creator": [
         {
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -189,7 +189,7 @@
           ],
           "vcard:hasUID": [
             {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901"
             }
           ],
           "vcard:fn": [
