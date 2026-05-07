@@ -21,9 +21,9 @@
       "@type": "dcat:Catalog",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -54,7 +54,7 @@
       "dct:creator": [
         {
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -67,7 +67,7 @@
         }
       ],
       "dct:description": {
-        "@value": "Catálogo Ministerio de la Presidencia, Justicia y Relaciones con las Cortes - Secretaría de Estado de Justicia",
+        "@value": "CatÃ¡logo Ministerio de la Presidencia, Justicia y Relaciones con las Cortes - SecretarÃ­a de Estado de Justicia",
         "@language": "es"
       },
       "dct:language": {
@@ -95,9 +95,9 @@
       "@id": "http://datos.organismo.es/dataset/739e808b-5a22-4179-b85c-eec2cf467864",
       "dct:publisher": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -116,7 +116,7 @@
       "dct:creator": [
         {
           "@type": "foaf:Agent",
-          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601",
           "dct:type": {
             "@id": "http://purl.org/adms/publishertype/NationalAuthority"
           },
@@ -132,17 +132,9 @@
         "@value": "Datos de Subastas Judiciales",
         "@language": "es"
       },
-      "dct:accessRights": [
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-        }
-      ],
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
       "dct:issued": [
         {
           "@value": "2026-02-17T00:00:00+01:00",
@@ -166,7 +158,7 @@
       },
       "dct:spatial": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/EspaÃ±a"
         }
       ],
       "dct:temporal": [
@@ -183,18 +175,18 @@
           "@type": "vcard:Kind",
           "vcard:organization-name": [
             {
-              "@value": "Dirección General de Transformación Digital de la Administración de Justicia. Subdirección General de Impulso e Innovación de Servicios Digitales.",
+              "@value": "DirecciÃ³n General de TransformaciÃ³n Digital de la AdministraciÃ³n de Justicia. SubdirecciÃ³n General de Impulso e InnovaciÃ³n de Servicios Digitales.",
               "@language": "es"
             }
           ],
           "vcard:hasUID": [
             {
-              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E00003901"
+              "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05228601"
             }
           ],
           "vcard:fn": [
             {
-              "@value": "Dirección General de Transformación Digital de la Administración de Justicia. Subdirección General de Impulso e Innovación de Servicios Digitales.",
+              "@value": "DirecciÃ³n General de TransformaciÃ³n Digital de la AdministraciÃ³n de Justicia. SubdirecciÃ³n General de Impulso e InnovaciÃ³n de Servicios Digitales.",
               "@language": "es"
             }
           ],
@@ -217,15 +209,15 @@
       ],
       "dcat:distribution": [
         {
-          "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv"
+          "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv//Subastas_Judiciales.csv"
         }
       ]
     },
     {
-      "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv",
+      "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv//Subastas_Judiciales.csv",
       "@type": "dcat:Distribution",
       "dcat:accessURL": {
-        "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv"
+        "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv//Subastas_Judiciales.csv"
       },
       "dct:format": {
         "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
@@ -255,7 +247,7 @@
         "@id": "https://www.boe.es/eli/es/l/2013/12/09/19"
       },
       "dcat:downloadURL": {
-        "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv/Subastas_Judiciales.csv"
+        "@id": "https://github.com/SDValdera/MPJRC/blob/main/csv//Subastas_Judiciales.csv"
       }
     }
   ]
