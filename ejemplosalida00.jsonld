@@ -166,7 +166,7 @@
       },
       "dct:spatial": [
         {
-          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/Espana"
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
         }
       ],
       "dct:temporal": [
@@ -258,5 +258,3 @@
         "@id": "https://descatalogodatos.justicia.es/csv/Subastas_Judiciales.csv"
       }
     }
-  ]
-}
