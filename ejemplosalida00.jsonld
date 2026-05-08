@@ -205,7 +205,7 @@
           ],
           "vcard:hasTelephone": [
             {
-              "@id": "tel:<p>902007214||918372295</p>"
+              "@id": "tel:902007214"
             }
           ],
           "vcard:hasURL": [
